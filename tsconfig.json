@@ -15,7 +15,12 @@
       "es5"
     ],
     "declaration": true,
-    "outDir": "./"
+    "outDir": "./",
+    "types": [
+      "babylonjs",
+      "babylonjs-loaders",
+      "babylonjs-gltf2interface"
+    ]
   },
   "files": [
     "./index.ts"
